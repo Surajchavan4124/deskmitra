@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login/registration</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/icons/DeskMitra Favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="login-registration.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box login">
+        <form action="login.php" method="post" name="login_form" onsubmit="return validateLogin()">
+          <h1>Login</h1>
+          <div class="input-box">
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="username"
+            />
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+            />
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="forgot-link">
+            <a href="#">forgot password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <p>Or login with social media platforms</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </form>
+      </div>
+      <div class="form-box register">
+        <form action="registration_insert.php" method="post" name="registration_form" onsubmit="return validateRegister()">
+          <h1>Registration</h1>
+          <div class="input-box">
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="username"
+            />
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-box">
+            <input type="email" name="email" id="email" placeholder="email" />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+            />
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <button type="submit" class="btn">Register</button>
+          <p>Or register with social media platforms</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="toggle-box">
+        <div class="toggle-panel toggle-left">
+          <h1>Hello, Welcome!</h1>
+          <p>Don't have an account</p>
+          <button class="btn register-btn">Register</button>
+        </div>
+        <div class="toggle-panel toggle-right">
+          <h1>Welcome Back!</h1>
+          <p>Already have an account</p>
+          <button class="btn login-btn">Login</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/1757314b6a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="login-register.js"></script>
+  </body>
+</html>

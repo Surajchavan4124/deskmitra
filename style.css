@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.services {
+  gap: 10px;
+}
+
+.help-section {
+  height: 200px;
+}
+
+.section-htext1 {
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.section-htext2 {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.section-htext3 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.section-card {
+  background-color: #eaeaea;
+  width: 560px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.button-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.help-question {
+  font-weight: bold;
+}
+
+.contact-us-section {
+  gap: 30px;
+}
+
+footer {
+  background-color: #00151f;
+}
+
+.copyright-text,
+.address-text {
+  color: #b3b8bb;
+}
+
+.glyphicon-earphone {
+  color: white;
+}
+
+.error {
+  display: none;
+  font-weight: 300;
+  background-color: rgb(255, 211, 211);
+}
+
+.service-accepted svg {
+    width: 25%;
+    height: auto;
+    fill: green;
+}
+
+.thank-text {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+.service-accepted button {
+  font-weight: 500;
+  font-size: 18px;
+}
