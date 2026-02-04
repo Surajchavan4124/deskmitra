@@ -1,9 +1,11 @@
         <?php
-$servername = "localhost";
+$servername = "hopper.proxy.rlwy.net";
 $username = "root";
-$password = "";
-$database = "deskmitra";
-$db = new mysqli($servername, $username, $password, $database);
+$password = "NUrmlGfIAyWEJNvtSDEHUmmKtLQinJXd";
+$database = "railway";
+$port       = 47375;
+
+$db = new mysqli($servername, $username, $password, $database, $port);
 
     if ($db -> connect_error) {
         die("Error connect database ".$db -> connect_error);
