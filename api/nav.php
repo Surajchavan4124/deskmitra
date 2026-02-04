@@ -4,7 +4,7 @@
         <div class="container">
           <a href="index.php" class="navbar-brand">
             <img
-              src="assets/images/DeskMitra horizontal.png"
+              src="../assets/images/DeskMitra horizontal.png"
               alt="DeskMitra Logo"
               width="130px"
             />
