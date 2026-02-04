@@ -44,7 +44,7 @@
           <div class="section-image col-md-7">
             <img
               width="90%"
-              src="../assets/images/simplify solve succeed.svg"
+              src="assets/images/simplify solve succeed.svg"
               alt=""
             />
           </div>
@@ -57,7 +57,7 @@
           <div class="section-image col-md-7">
             <img
               width="90%"
-              src="../assets/images/top quality advice.svg"
+              src="assets/images/top quality advice.svg"
               alt=""
             />
           </div>
@@ -102,7 +102,7 @@
           <div class="section-image col-md-7">
             <img
               width="90%"
-              src="../assets/images/Legal expertise is key.svg"
+              src="assets/images/Legal expertise is key.svg"
               alt=""
             />
           </div>
@@ -115,12 +115,12 @@
           <div class="col-md-6 col-sm-12 section-card p-5 rounded rounded-3">
             <h1 class="section-htext3">Key<br />Milestone</h1>
             <p class="mb-5">Achieving justice together</p>
-            <img src="../assets/images/key milestone.svg" alt="" />
+            <img src="assets/images/key milestone.svg" alt="" />
           </div>
           <div class="col-md-6 col-sm-12 section-card p-5 rounded rounded-3">
             <h1 class="section-htext3">Innovation<br>Hub</h1>
             <p class="mb-5">Where justice meets innovation</p>
-            <img src="../assets/images/innovation hub.svg" alt="" />
+            <img src="assets/images/innovation hub.svg" alt="" />
           </div>
         </div>
       </div>
@@ -164,7 +164,7 @@
         class="my-5 px-4 py-5 d-flex align-items-center container rounded rounded-3 bg-primary contact-us-section row"
       >
       <div class="contact-us-image col-md-4">
-        <img src="../assets/images/contact uştoday.svg" alt="">
+        <img src="assets/images/contact uştoday.svg" alt="">
       </div>
       <div class="col-md-7 contact-us-text">
       <h1 class="section-htext2 my-4 text-white my-auto">
